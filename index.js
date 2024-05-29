@@ -17,6 +17,8 @@ function handleSubmit(event) {
       const data = fileReader.result;
       await modifyPdf(data, fileList[0].name);
     };
+  } else {
+    alert("No file uploaded. Please upload a file first!");
   }
 }
 
