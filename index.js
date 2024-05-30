@@ -16,7 +16,7 @@ file.addEventListener("change", (e) => {
 submit.addEventListener("click", handleSubmit);
 
 loadSample.addEventListener("click", async (e) => {
-  await handleLoadSamplePDF("/sample.pdf");
+  await handleLoadSamplePDF("/edit-pdf/sample.pdf");
 });
 
 /**
